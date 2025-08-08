@@ -1,0 +1,27 @@
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  background-color: #333;
+  box-sizing: border-box;
+}
+
+nav a {
+  flex: auto;
+  color: white;
+  text-decoration: none;
+  padding: 2.5rem 0rem;
+  border-right: 1px solid #555;
+  /* background-color: red; */
+  box-sizing: border-box;
+}
+nav a:hover {
+  background-color: #555;
+}
+
+nav a.active {
+  /* background-color: #007bff; */
+  background-image: linear-gradient(to right, #829ab4, #0056b3, #829ab4);
+  /* transition: background-color 0.3s ease; */
+  color: white;
+}
